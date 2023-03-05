@@ -1,0 +1,24 @@
+.section-heading {
+	font-size: 4em;
+	font-weight: 300;
+	text-align: center;
+	color: $dark-brown;
+	letter-spacing: 1px;
+	margin-bottom: 0;
+	font-family: 'Alluar', cursive;
+}
+
+.section-padding {
+	padding: 2em 2em;
+    background: rgb(255, 255, 255);
+    z-index: 500;
+}
+
+.house-padding {
+	padding: 2em 2em;
+    background: $white-smoke;
+    // z-index: 500;
+}
+.houses-padding {
+	padding: 0 0 8em 0;
+}

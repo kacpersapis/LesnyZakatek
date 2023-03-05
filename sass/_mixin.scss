@@ -1,0 +1,11 @@
+@mixin heroImages($bgImg) {
+    background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bgImg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+@mixin sectionImages($bgImg) {
+    background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bgImg);
+    background-attachment: fixed;
+}
