@@ -76,6 +76,7 @@ html {
 .navbar__logo {
   display: flex;
   margin: 5px 24px;
+  max-width: 56px;
 }
 .navbar .fa-brands {
   position: relative;
@@ -486,6 +487,7 @@ h1 {
   color: #f0f8ff;
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/footer.jpg");
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 .footer .wrapper {
   padding: 6em 2em 2em;

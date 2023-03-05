@@ -32,6 +32,7 @@ html {
 	&__logo {
 		display: flex;
 		margin: 5px 24px;
+		max-width: 56px;
 	}
 
 .fa-brands {
@@ -490,6 +491,7 @@ h1 {
 	
 	color: $white;
 	@include sectionImages('../img/footer.jpg');
+	background-repeat: no-repeat;
 
 	.wrapper {
 		padding: 6em 2em 2em;
