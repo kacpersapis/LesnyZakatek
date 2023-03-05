@@ -750,6 +750,8 @@ h1 {
 	}
 	.navbar__menu.active{
 		left: 0;
+		width: 100%;
+		transition: 0.5s;
 	}
 .footer {
 	color: $white;
