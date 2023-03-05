@@ -4,14 +4,14 @@ const hamburger =document.querySelector('.hamburger');
 
 
 hamburger.addEventListener('click', () => {
-	hamburger.classList.toggle('active')
-	mainNav.classList.toggle('active')
+	hamburger.classList.toggle('active');
+	mainNav.classList.toggle('active');
 })
 
 document.querySelectorAll('.navbar__menu--links').forEach(n =>
 	n.addEventListener('click', () => {
-		hamburger.classList.remove('active')
-		mainNav.classList.remove('active')
+		hamburger.classList.remove('active');
+		mainNav.classList.remove('active');
 	})
 )
 
