@@ -392,11 +392,10 @@ h1 {
 .party__img {
   top: 0;
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/wp.jpg");
-  width: 100%;
-  background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/wp.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100%;
   position: absolute;
   display: flex;
   justify-content: center;
