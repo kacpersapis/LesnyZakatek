@@ -388,15 +388,14 @@ h1 {
   height: 75vh;
   width: 100%;
   text-align: center;
-  background-attachment: scroll;
 }
 .party__img {
   top: 0;
-  background-attachment: scroll;
   width: 100%;
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/wp.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   position: absolute;
   display: flex;
   justify-content: center;
