@@ -144,12 +144,10 @@ html {
   padding: 16em;
   height: 75vh;
   text-align: center;
-  background-attachment: scroll;
   overflow: hidden;
 }
 .header__img {
   top: 0;
-  background-attachment: scroll;
   width: 100%;
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/hero.jpg");
   background-size: cover;

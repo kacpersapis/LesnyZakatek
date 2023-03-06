@@ -111,12 +111,12 @@ html {
 	padding: 16em;
 	height: 75vh;
 	text-align: center;
-	background-attachment: scroll;
+	// background-attachment: scroll;
 	overflow: hidden;
 
 	&__img {
 		top: 0;
-		background-attachment: scroll;
+		// background-attachment: scroll;
 		width: 100%;
 		@include heroImages('../img/hero.jpg');
 		position: absolute;
