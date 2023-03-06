@@ -117,7 +117,7 @@ html {
 	&__img {
 		top: 0;
 		// background-attachment: scroll;
-		width: 100%;
+		width: 100vw;
 		@include heroImages('../img/hero.jpg');
 		position: absolute;
 		// display: flex;
@@ -391,6 +391,7 @@ h1 {
 	align-items: center;
 	flex-direction: column;
 	height: 75vh;
+	width: 100%;
 	text-align: center;
 	background-attachment: scroll;
 	
