@@ -481,6 +481,8 @@ h1 {
   color: #f0f8ff;
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/footer.jpg");
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 .footer .wrapper {
   padding: 6em 2em 2em;
