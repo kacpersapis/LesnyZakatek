@@ -152,7 +152,6 @@ html {
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: absolute;
   height: 75vh;
   animation: zoom-in-zoom-out 40s ease infinite;
@@ -398,7 +397,6 @@ h1 {
   background-image: linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url("../img/wp.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   position: absolute;
   display: flex;
   justify-content: center;
