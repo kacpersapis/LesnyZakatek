@@ -5,8 +5,8 @@
     // background-attachment: fixed;
 }
 
-@mixin sectionImages($bgImg) {
-    background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bgImg);
+@mixin sectionImages($bg1Img) {
+    background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bg1Img);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
