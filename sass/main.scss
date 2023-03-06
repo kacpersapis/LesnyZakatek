@@ -399,6 +399,10 @@ h1 {
 		
 		top: 0;
 		// background-attachment: scroll;
+		background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url('../img/wp.jpg');
+		background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 		width: 100%;
 		@include partyImages('../img/wp.jpg');
 		position: absolute;

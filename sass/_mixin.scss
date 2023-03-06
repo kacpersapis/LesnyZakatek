@@ -12,10 +12,10 @@
     background-position: center;
 }
 
-@mixin partyImages($bgpImg) {
-    background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bgpImg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
+// @mixin partyImages($bgpImg) {
+//     background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url($bgpImg);
+//     background-size: cover;
+//     background-position: center;
+//     background-attachment: fixed;
+// }
 
