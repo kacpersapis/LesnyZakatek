@@ -497,8 +497,10 @@ h1 {
 .footer {
 	
 	color: $white;
-	@include sectionImages('../img/footer.jpg');
+	// @include sectionImages('../img/footer.jpg');
 	// background-repeat: no-repeat;
+	background-image:linear-gradient(rgba(61, 57, 53, 0.76), rgba(61, 57, 53, 0.76)), url('../img/footer.jpg');
+    background-attachment: fixed;
 
 	.wrapper {
 		padding: 6em 2em 2em;
@@ -548,6 +550,7 @@ h1 {
 
 		&__img {
 			height: 60vh;
+			
 		}
 	
 		&__heading {
